@@ -4,8 +4,8 @@
 <head>
 
     <!--STYLES-->
-<link href='https://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='index.css'>
 
     <meta charset="UTF-8">
@@ -13,74 +13,26 @@
 </head>
 
 <body>
+    <hdr-dir></hdr-dir>
+    <ptf-dir></ptf-dir>
+    <abt-dir></abt-dir>
+    <ctt-dir></ctt-dir>
+    <ftr-dir></ftr-dir>
 
-    <!--header Dir-->
-    <div class="header">Phillip E Puckett</div>
-    <!--header Dir-->
+    <!--CONTENT DELIVERY NETWORKs-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
 
-    <!--ui-view: portfolio-->
-    <div class="body">
-        <p class="inlineDiv">
-            <a href="">About Me</a>
-            <a href="">Web Development Portfolio</a>
-            <a href="">Contact Me</a>
-        </p>
-
-        <img class="ptfImg">
-    </div>
-
-    <div class="ptfBody">
-        <p class="txtLg">Projects</p>
-        <p>The links provided below are for the illustrating of my development process, and to give a quick explanation of
-            just how these projects operate</p>
-
-        <div class="inlineDiv">
-            <img class="ptfThmNl">
-            <img class="ptfThmNl">
-        </div>
-        <div class="inlineDiv">
-            <p class="txtMd">Element Emporium</p>
-            <p class="txtMd">Gamify DevMountain</p>
-        </div>
-        <div class="inlineDiv">
-            <img class="ptfThmNl">
-        </div>
-        <p class="txtMd">Snake Bytes</p>
-    </div>
-    <!--ui-view: portfolio-->
-
-    <!--ui-view: about-->
-    <div class="abtBody">
-        <p class="txtLg">About Me</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, dicta laudantium asperiores tempora atque autem laboriosam
-            nesciunt ut nemo itaque modi rerum consequuntur at, culpa quaerat ipsa magni laborum eius.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolores, vitae magni. Fugit cumque doloremque
-            vero! Accusantium repellendus inventore voluptas officia totam assumenda consectetur enim odio voluptate, incidunt
-            iure similique.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure consequuntur consectetur tempore voluptas, placeat
-            voluptate deserunt porro numquam architecto illo culpa pariatur quia doloremque harum, facilis quisquam asperiores
-            iusto. Itaque?</p>
-    </div>
-    <!--ui-view: about-->
-
-    <!--ui-view: contact-->
-    <div class="ctBody">
-        <div class="txtLg"></div>
-        <div class="inlineDiv">
-            <img class="ctImg" src="" alt="">
-            <div class="ctInfo">
-                <p class="ctTxt">phillippuckett88@gmail.com</p>
-                <p class="ctTxt">+1(801)897-5028</p>
-                <p class="ctTxt"></p>
-                <a class="ctBtn" href="">RESUME</a>
-            </div>
-        </div>
-    </div>
-    <!--ui-view: contact-->
-
-    <!--footer dir-->
-    <div class="footer">By Phillip E Puckett</div>
-    <!--footer dir-->
+    <!--SCRIPTS-->
+    <script src="js/app.js"></script>
+    
+    <script src="js/controllers/ptfCtrl.js"></script>
+   
+    <script src="js/directives/abtDir.js"></script>
+    <script src="js/directives/hdrDir.js"></script>
+    <script src="js/directives/ptfDir.js"></script>
+    <script src="js/directives/ftrDir.js"></script>
+    <script src="js/directives/cttDir.js"></script>
 
 </body>
 
