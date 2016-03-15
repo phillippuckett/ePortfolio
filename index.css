@@ -1,60 +1,74 @@
 /* HTML ---------------------------------*/
 
-html {  font-family: 'Playfair Display SC', serif;
+html {  font-family: 'Raleway', sans-serif;
         text-align: center;
-    /*border: 1px solid rgba(0,0,0,1);
-    background-color: rgba(0,0,0,0);*/
+    /*border: 1px solid rgba(0,0,0,1);*/
+    /*background-color: rgba(0,0,0,0);*/
     min-height: 100vh;
     min-width: 100vw;
     margin: auto;
 }
 
-p {     text-align: center;
+p { text-align: center;
     text-decoration: none; 
-    /*border: 1px solid rgba(250,0,0,.75);
-    background-color: rgba(250,0,0,.25); */
+    font-size: 3.75vh;
+    /*border: 1px solid rgba(250,0,0,.75);*/
+    /*background-color: rgba(250,0,0,.25);*/
     margin: auto; 
 }
 
 a {     text-align: center;
-    text-decoration: none; 
-    /*border: 1px solid rgba(0,250,0,.75);
-    background-color: rgba(0,250,0,.25); */
+        text-decoration: none; 
+        color: rgba(0,0,0,.25);
+    /*border: 1px solid rgba(0,250,0,.75);*/
+    /*background-color: rgba(0,250,0,.25);*/
     margin: auto; }
-a:hover { color: yellow; text-decoration: none; border: 1px solid rgb(250,250,0); }
+a:hover { color: black; text-decoration: none; /*border: 1px solid rgb(250,250,0);*/ }
 
 .inlineDiv {
-    /*border: 1px solid rgb(250,0,100); */
+    /*border: 1px solid rgb(250,0,100);*/
     display: inline-flex;
     width: 100%;
 }
 
-.button {   font-size: 2.5vh;
+.body {   text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    /*border: 1px solid rgba(150,150,0,.75);*/
+    /*background-color: rgba(150,150,0,.25);*/
+    width: 60vw;
+    margin: auto;
+    
+}
+
+/*.button {   font-size: 2.5vh;
             text-align: center;
             text-decoration: none; 
     border: 2px solid rgb(0,0,0);
     background-color: rgba(0,0,0,0);
     padding: 2.5vh 2.5vw;
     margin: auto;
-}
+}*/
+/*.button:hover { color: yellow; text-decoration: none; border: 1px solid rgb(250,250,0); }*/
+
 
 /* HTML ---------------------------------*/
 
 /* DIR ---------------------------------*/
 
-.header { text-align: center;
-          font-size: 10vh;
-    /*border: 1px solid rgba(0,0,250,75);
-    background-color: rgba(0,0,250,.25);*/
+.header {   text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 5.25vw;
+    /*border: 1px solid rgba(0,0,250,75);*/
+    /*background-color: rgba(0,0,250,.25);*/
     padding: 7.5vh 0;
     width: 75%;
     margin: auto;
 }
 
-.footer {   font-size: 2vh;
+.footer {   font-size: 2.5vh;
             text-decoration: none;
-    /*border: 1px solid rgba(100,250,100,.75);
-    background-color: rgba(100,250,100,.25);*/
+    /*border: 1px solid rgba(100,250,100,.75);*/
+    /*background-color: rgba(100,250,100,.25);*/
     width: 100%;
     margin: 15vh auto;
 }
@@ -63,43 +77,66 @@ a:hover { color: yellow; text-decoration: none; border: 1px solid rgb(250,250,0)
 
 /* PORTFOLIO STATE ---------------------------------*/
 
-.body {   text-align: center;
-    border-bottom: 1px solid grey;
-    /*border: 1px solid rgba(150,150,0,.75);*/
-    /*background-color: rgba(150,150,0,.25);*/
-    width: 65%;
-    margin: auto;
-    
-}
-
-.Img {  text-align: center;
-    border: 1px solid rgba(150,0,0,.75);
-    background-color: rgba(150,0,0,.25);
+.ptfImg {  text-align: center;
+    /*border: 1px solid rgba(150,0,0,.75);*/
+    /*background-color: rgba(150,0,0,.25);*/
     height: 50vh;   
-    width: 100%;
+    width: 60vw;
     margin: 5% auto;
 }
 
-.thumbNail {  text-align: center;
-    border: 1px solid rgba(250,0,0,.75);
-    background-color: rgba(250,0,0,.25);
-    height: 35vh;   
-    width: 30vw;
-    margin: 1.25vh auto;
-}
-
-/* PORTFOLIO STATE ---------------------------------*/
-
-/* CONTACT STATE ---------------------------------*/
-.contactImg {  text-align: center;
-    border: 1px solid rgba(250,0,25,.75);
-    background-color: rgba(250,0,25,.25);
+.ptfThmNl {  text-align: center;
+    /*border: 1px solid rgba(250,0,0,.75);*/
+    /*background-color: rgba(250,0,0,.25);*/
     height: 50vh;   
     width: 25vw;
     margin: 1.25vh auto;
 }
 
-.contactInfo {  font-size: 4vh;
+.ptfBody {   text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    /*border: 1px solid rgba(150,150,0,.75);*/
+    /*background-color: rgba(150,150,0,.25);*/
+    width: 65vw;
+    margin: auto;  
+}
+
+/*.ptfBtn {   font-size: 2.5vh;
+            text-align: center;
+            text-decoration: none; 
+    border: 2px solid rgb(0,0,0);
+    background-color: rgba(0,0,0,0);
+    padding: 2.5vh 2.5vw;
+    margin: 5vh auto 0 auto;
+}*/
+/*.ptfBtn:hover { color: yellow; text-decoration: none; border: 1px solid rgb(250,250,0); }*/
+
+
+/* PORTFOLIO STATE ---------------------------------*/
+
+/* ABOUT STATE ---------------------------------*/
+
+.abtBody {   text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    /*border: 1px solid rgba(150,150,0,.75);*/
+    /*background-color: rgba(150,150,0,.25);*/
+    width: 55vw;
+    padding-bottom: 1.25%;
+    margin: auto;  
+}
+
+/* ABOUT STATE ---------------------------------*/
+
+/* CONTACT STATE ---------------------------------*/
+.ctImg {  text-align: center;
+    /*border: 1px solid rgba(250,0,25,.75);*/
+    /*background-color: rgba(250,0,25,.25);*/
+    height: 50vh;   
+    width: 25vw;
+    margin: 1.25vh auto;
+}
+
+.ctInfo {  font-size: 4vh;
                 text-align: center;
     /*border: 1px solid rgba(250,0,25,.75);*/
     /*background-color: rgba(250,0,25,.25);*/
@@ -107,7 +144,7 @@ a:hover { color: yellow; text-decoration: none; border: 1px solid rgb(250,250,0)
     width: 25vw;
     margin: auto;
 }
-.contactTxt {   font-size: 2.5vh;
+.ctTxt {   font-size: 3.75vh;
                 text-align: center;
     /*border: 1px solid rgba(0,0,0,.75);*/
     /*background-color: rgba(0,0,0,.25);*/
@@ -116,31 +153,44 @@ a:hover { color: yellow; text-decoration: none; border: 1px solid rgb(250,250,0)
     margin: 5vh auto;
 }
 
-.contactBtn {   font-size: 2.5vh;
+.ctBtn {    font-size: 3.75vh;
+            color: rgba(0,0,0,.25);
             text-align: center;
             text-decoration: none; 
-    border: 2px solid rgb(0,0,0);
+    border: 2px solid rgba(0,0,0,.25);
     background-color: rgba(0,0,0,0);
     padding: 2.5vh 2.5vw;
     margin: 5vh auto 0 auto;
+}
+.ctBtn:hover { color: black; text-decoration: none; border: 2px solid rgb(0,0,0); }
+
+.ctBody {   text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    /*border: 1px solid rgba(150,150,0,.75);*/
+    /*background-color: rgba(150,150,0,.25);*/
+    width: 55vw;
+    padding-bottom: 1.25%;
+    margin: auto;  
 }
 /* CONTACT STATE ---------------------------------*/
 
 /* TEXTS ---------------------------------*/
 
-.txtSm { font-size: 2vh;
+.txtSm { font-size: 2.5vh;
          text-align: center;
          text-decoration: none;
-    /*border: 1px solid rgba(250,0,250,.75);
-    background-color: rgba(250,0,250,.25);*/
+         color: rgba(0,0,0,.5);
+    /*border: 1px solid rgba(250,0,250,.75);*/
+    /*background-color: rgba(250,0,250,.25);*/
     width: 100%;
     margin: auto;
 }
 
-.txtMd {    font-size: 2.5vh;
+.txtMd {    font-size: 3.75vh;
             text-align: center;
-    /*border: 1px solid rgba(0,0,0,.75);
-    background-color: rgba(0,0,0,.25);*/
+            color: rgba(0,0,0,.5);
+    /*border: 1px solid rgba(0,0,0,.75);*/
+    /*background-color: rgba(0,0,0,.25);*/
     height: 5vh; 
     width: 100%;  
     margin: auto;
@@ -148,8 +198,9 @@ a:hover { color: yellow; text-decoration: none; border: 1px solid rgb(250,250,0)
 
 .txtLg {    font-size: 5vh; 
             text-align: center;
-    /*border: 1px solid rgba(0,250,250,.75);
-    background-color: rgba(0,250,250,.25);*/
+            color: rgba(0,0,0,1);
+    /*border: 1px solid rgba(0,250,250,.75);*/
+    /*background-color: rgba(0,250,250,.25);*/
     height: 7.5vh; 
     width: 100%;  
     margin: auto; margin-top: 2.5%;
