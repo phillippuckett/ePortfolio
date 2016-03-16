@@ -1,9 +1,43 @@
-    <navigation>
-        <a href="/#/aboutme">About Me</a>
-        <a href="/#/portfolio" style="color: rgba(0,0,0,.25);">My Portfolio</a>
-        <a href="/#/contactme">Contact Me</a>
-        <a href="/#/resume">My Résumé</a>
-    </navigation>
-    <state>
-        <h2>{{portfolioCtrl}}</h2>
-    </state>
+<navigation>
+    <a href="/#/aboutme">About Me</a>
+    <a href="/#/portfolio" style="color: rgba(0,0,0,.25);">My Portfolio</a>
+    <a href="/#/contactme">Contact Me</a>
+    <a href="/#/resume">My Résumé</a>
+</navigation>
+<h2>{{portfolioCtrl}}</h2>
+
+<img src="/media/phil1.png">
+
+<h2>My Projects</h2>
+
+<project>
+    <img class="ptfThmNl" src="/media/portrait.jpg">
+</project>
+<project>
+    <img class="ptfThmNl" src="/media/portrait.jpg">
+</project>
+<project>
+    <img class="ptfThmNl" src="/media/portrait.jpg">
+</project>
+
+<style>
+    project {
+        border: 1px solid rgba(0, 100, 0, 1);
+        min-height: 200px;
+        height: 100%;
+        max-height: 67.5vh;
+        min-width: 200px;
+        width: 100%;
+        max-width: 70vh;
+    }
+    
+    .ptfThmNl {
+        border: 1px dashed rgba(0, 200, 100, 1);
+        min-height: 200px;
+        height: 100%;
+        max-height: 37.5vh;
+        min-width: 200px;
+        width: 100%;
+        max-width: 37.5vh;
+    }
+</style>
