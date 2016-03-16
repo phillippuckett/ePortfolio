@@ -4,8 +4,9 @@ angular.module("ePortfolio")
             restrict: 'E',
             templateUrl: 'html/ftr.html',
             controller: function ($scope) {
-                $scope.ftrDir = 'FOOTER DIRECTIVE'
+                $scope.ftrDir = "FOOTER DIRECTIVE"
+                var currentyear = new Date().getFullYear();
+                $scope.year = currentyear.toString();
             }
-          
         }
     });

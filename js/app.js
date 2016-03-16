@@ -3,9 +3,8 @@ angular.module('ePortfolio', ['ui.router'])
         $stateProvider
             .state('portfolio', {
                 url: '/portfolio',
-                templateUrl: '/ptf.html',
-                controller: 'ptfCtrl'
+                templateUrl: '/portfolio.html',
+                controller: 'portfolioCtrl'
             })
-
-        $urlRouterProvider.otherwise('/portfolio');
+        // $urlRouterProvider.otherwise('/portfolio');
     });

@@ -4,8 +4,7 @@ angular.module("ePortfolio")
             restrict: 'E',
             templateUrl: 'html/hdr.html',
             controller: function ($scope) {
-                $scope.hdrDir = 'HEADER DIRECTIVE'
-            }
-          
+                $scope.hdrDir = "HEADER DIRECTIVE"
+            }        
         }
     });

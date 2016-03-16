@@ -4,19 +4,26 @@
 <head>
 
     <!--STYLES-->
-    <link href='https://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    <link rel='stylesheet' href='index.css'>
+    <link rel='stylesheet' href='css/index.css'>
 
     <meta charset="UTF-8">
     <title>ePortfolio</title>
 </head>
 
 <body>
+
     <hdr-dir></hdr-dir>
-    <ptf-dir></ptf-dir>
-    <abt-dir></abt-dir>
-    <ctt-dir></ctt-dir>
+    <stateMenu>
+        <a href="/">About Me</a>
+        <a href="/portfolio">My ePortfolio</a>
+        <a href="/">Contact Me</a>
+        <a href="/">My Résumé</a>
+    </stateMenu>
+    <state>
+        <h2>{{portfolioCtrl}}</h2>
+    </state>
+    <!--<ui-view></ui-view>-->
     <ftr-dir></ftr-dir>
 
     <!--CONTENT DELIVERY NETWORKs-->
@@ -25,15 +32,11 @@
 
     <!--SCRIPTS-->
     <script src="js/app.js"></script>
-    
-    <script src="js/controllers/ptfCtrl.js"></script>
-   
-    <script src="js/directives/abtDir.js"></script>
-    <script src="js/directives/hdrDir.js"></script>
-    <script src="js/directives/ptfDir.js"></script>
-    <script src="js/directives/ftrDir.js"></script>
-    <script src="js/directives/cttDir.js"></script>
 
+    <script src="js/controllers/ptf.js"></script>
+
+    <script src="js/directives/hdr.js"></script>
+    <script src="js/directives/ftr.js"></script>
 </body>
 
 </html>
