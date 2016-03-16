@@ -13,18 +13,9 @@
 
 <body>
 
-    <hdr-dir></hdr-dir>
-    <stateMenu>
-        <a href="/">About Me</a>
-        <a href="/portfolio">My ePortfolio</a>
-        <a href="/">Contact Me</a>
-        <a href="/">My Résumé</a>
-    </stateMenu>
-    <state>
-        <h2>{{portfolioCtrl}}</h2>
-    </state>
-    <!--<ui-view></ui-view>-->
-    <ftr-dir></ftr-dir>
+    <header-dir></header-dir>
+    <ui-view></ui-view>
+    <footer-dir></footer-dir>
 
     <!--CONTENT DELIVERY NETWORKs-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js"></script>
@@ -32,11 +23,9 @@
 
     <!--SCRIPTS-->
     <script src="js/app.js"></script>
-
-    <script src="js/controllers/ptf.js"></script>
-
-    <script src="js/directives/hdr.js"></script>
-    <script src="js/directives/ftr.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/directives.js"></script>
+    
 </body>
 
 </html>
