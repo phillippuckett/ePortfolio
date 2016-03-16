@@ -1,9 +1,46 @@
-    <navigation>
-        <a href="/#/aboutme">About Me</a>
-        <a href="/#/portfolio">My Portfolio</a>
-        <a href="/#/contactme" style="color: rgba(0,0,0,.25);">Contact Me</a>
-        <a href="/#/resume">My Résumé</a>
-    </navigation>
-    <state>
-        <h2>{{contactmeCtrl}}</h2>
-    </state>
+<navigation>
+    <a href="/#/aboutme">About Me</a>
+    <a href="/#/portfolio">My Portfolio</a>
+    <a href="/#/contactme" style="color: rgba(0,0,0,.25);">Contact Me</a>
+    <a href="/#/resume">My Résumé</a>
+</navigation>
+
+<navigation>
+    <contactme>
+        <img src="/media/portrait.jpg">
+    </contactme>
+    <contactme>
+        <h4><icon></icon><pleft>+1 801 897 5028</pleft></h4>
+        <h4><icon></icon><pleft>phillippuckett88@gmail.com</pleft></h4>
+        <h4><icon></icon><pleft>LinkedIn</pleft></h4>
+        <h4><icon></icon><pleft>Github</pleft></h4>
+    </contactme>
+</navigation>
+
+<style>
+    contactme {
+        /*border: 1px dashed rgba(0, 200, 100, 1);*/
+        min-height: 200px;
+        height: 100%;
+        max-height: 50vh;
+        min-width: 200px;
+        width: 100%;
+        max-width: 25vw;
+        margin: auto;
+    }    
+    pleft {
+        color: rgba(0, 0, 0, .75);
+        font-size: 2.5vh;
+        text-align: left;
+        /*border: 1px dashed rgba(150, 250, 250, .25);*/
+        margin: auto 2.5%;
+    }   
+    icon {
+        /*border: 1px solid rgba(0, 0, 0, .75);*/
+        border-radius: 25%;
+        background-color: rgba(0, 0, 0, .25);
+        min-height: 5vh;
+        min-width: 2.5vw;
+        margin: 2.5%;
+    }
+</style>

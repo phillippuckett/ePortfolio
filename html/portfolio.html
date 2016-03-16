@@ -4,40 +4,42 @@
     <a href="/#/contactme">Contact Me</a>
     <a href="/#/resume">My Résumé</a>
 </navigation>
-<h2>{{portfolioCtrl}}</h2>
 
-<img src="/media/phil1.png">
+<img src="/media/phil2.png">
+<img src="/media/phil1.png">>
 
 <h2>My Projects</h2>
 
-<project>
-    <img class="ptfThmNl" src="/media/portrait.jpg">
-</project>
-<project>
-    <img class="ptfThmNl" src="/media/portrait.jpg">
-</project>
-<project>
-    <img class="ptfThmNl" src="/media/portrait.jpg">
-</project>
+<navigation>
+<div class="project">
+    <img class="thmNl" src="/media/unfinished.png">
+    <h2>Project #1</h2>
+</div>
+<div class="project">
+    <img class="thmNl" src="/media/unfinished.png">
+    <h2>Project #2</h2>
+</div>
+</navigation>
+<navigation>
+<div class="project">
+    <img class="thmNl" src="/media/unfinished.png">
+    <h2>Project #3</h2>
+</div>
+</navigation>
 
 <style>
-    project {
-        border: 1px solid rgba(0, 100, 0, 1);
-        min-height: 200px;
-        height: 100%;
-        max-height: 67.5vh;
-        min-width: 200px;
-        width: 100%;
-        max-width: 70vh;
+    .project {
+        /*border: 1px solid rgba(0, 100, 0, 1);*/
+        min-height: 200px;height: 50%;max-height: 70vh;
+        min-width: 200px;width: 50%;max-width: 35vw;
+        padding: 2.5%;
+        margin: auto;
     }
     
-    .ptfThmNl {
-        border: 1px dashed rgba(0, 200, 100, 1);
-        min-height: 200px;
-        height: 100%;
-        max-height: 37.5vh;
-        min-width: 200px;
-        width: 100%;
-        max-width: 37.5vh;
+    .thmNl {
+        /*border: 1px dashed rgba(0, 200, 100, 1);*/
+        min-height: 200px;height: 100%;max-height: 50vh;
+        min-width: 200px;width: 100%;max-width: 25vw;
+        margin: auto;
     }
 </style>
