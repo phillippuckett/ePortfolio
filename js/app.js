@@ -16,7 +16,7 @@ angular.module('ePortfolio', ['ui.router'])
                                             
             .state('contactme', {
                 url: '/contactme',
-                templateUrl: '/html/contactMe.html',
+                templateUrl: '/html/contactme.html',
                 controller: 'contactmeCtrl'
             })
                   
