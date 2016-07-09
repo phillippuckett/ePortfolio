@@ -1,0 +1,132 @@
+/*PAGE LAYOUT*/
+html { margin:0; padding:0; }
+body { 
+    /*border: 1px solid gold;*/
+    font-family:'Raleway',sans-serif; 
+    text-align: center;
+    color: rgba(0,0,0,.75); 
+    letter-spacing: .05vw;
+    margin: 0 15vw; padding:0; 
+}
+.section {
+    border-bottom:1px solid rgba(0,0,0,.125);
+    padding: 5vh 0; margin: 0;
+}
+.title {
+    font-size: 10vh;
+    margin: 5% 0; padding:0;
+}
+.largeText {
+    font-size: 5vh;
+    margin: 2.5% auto; 
+}
+.smallText {
+    font-size: 2.5vh;
+    line-height: 5vh;
+    margin: 10vw auto; padding: 0;
+}
+
+.navigation {
+    display: inline-flex;
+    margin: 5vh 0; padding: 0;
+}
+
+.navLink {
+    color: rgba(0,0,0,.75);
+    font-size: 2.5vh;
+    text-decoration: none;
+    margin: 0 2.75vw; padding: 0;
+}
+.navLink:hover { color: rgba(0,0,0,.5); }
+
+img {
+    height: 50%;
+    width: 50%;
+    margin:0; padding:0;
+}
+/*PAGE LAYOUT*/
+
+
+
+/*ABOUT ME*/
+.aboutMeText {
+    text-align: left;
+    text-indent: 2.5vw;
+    font-size: 2.5vh;
+    line-height: 5vh;
+    margin: 3.75vh auto;
+}
+/*ABOUT ME*/
+
+
+
+/*MY PORTFOLIO*/
+.projectDisplay {
+    /*border: 1px solid red;*/
+    margin: 5vh auto; padding:0;
+}
+
+.projectLink {
+    /*border: 1px solid green;*/
+    color: rgba(0,0,0,.75);
+    font-size: 7.5vh;
+    text-decoration: none;
+    margin: 0; padding:0;
+}
+.projectLink:hover { color: gold; }
+/*PORTFOLIO*/
+
+
+
+/*CONTACT ME*/
+.contactInfo {
+    /*border: 1px solid green;*/
+    text-align: left;
+    height: 50vh;
+    margin: 0 auto; padding: 0;
+    width: 50%;
+}
+
+.contactLink {
+    /*border: 1px solid blue;*/
+    color: rgba(0,0,0,.75);
+    text-decoration: none;
+}
+
+i.fa {
+    /*border: 1px solid red;*/
+    font-size: 6.25vh;
+    margin: 2.5vh 0; padding: 0;
+    display: inline-flex;
+}
+.fa-phone-square:hover { color: rgba(0, 200, 0, .75); }
+.fa-envelope-square:hover { color: rgba(200, 0, 0, .75); }
+.fa-linkedin-square:hover { color: rgba(0, 0, 100, .75); }
+.fa-github:hover { color: rgba(250, 100, 0, .75); }
+
+.faText {
+    /*border: 1px solid blue;*/
+    color: rgba(0,0,0,.75);
+    font-size: 2.5vh;
+    text-decoration: none;
+    margin: 2.5vh 2.5vh; padding: 0;
+}
+/*CONTACT ME*/
+
+
+
+/*MY RESUME*/
+.emblem {
+    /*border: 1px solid red;*/
+    font-size: 2.5vh;
+    min-height: 7.5vh; max-height: 15vh;
+    min-width: 7.5vh; max-width: 15vh;
+    margin: 1.25vh auto; padding:0;
+    display: inline-flex;
+}
+embed {
+    /*border: 1px solid gold;*/
+    min-height: 70%; height: 167.5vh;
+    min-width: 61.25vw; width: 50%;
+}
+/*RESUME*/
