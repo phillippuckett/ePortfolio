@@ -80,6 +80,7 @@ img {
 
 /*CONTACT ME*/
 #contactInfo {
+    font-family:'Raleway',sans-serif;
     /*border: 1px solid green;*/
     text-align: left;
     height: 50vh;
@@ -107,10 +108,11 @@ i.fa {
 
 .faText {
     /*border: 1px solid blue;*/
+    margin: 2.5vh 2.5vh; padding: 0;
+    font-family:'Raleway',sans-serif;
     color: rgba(0,0,0,.75);
     font-size: 2.5vh;
     text-decoration: none;
-    margin: 2.5vh 2.5vh; padding: 0;
 }
 /*CONTACT ME*/
 
@@ -141,6 +143,8 @@ embed {
         margin: 5% 0; padding:0;
     }
 
+    .smallText { letter-spacing: 1.25px; }
+
     .navigation {
         margin: 5% 0; padding: 0;
         display: inline-block;
@@ -157,19 +161,24 @@ embed {
 
     #contactInfo {
         margin: 10% auto; padding: 0;
-        /*border: 1px solid green;*/
         height: auto; width: 100%;
-        /*display: inline-flex;*/
     }
 
     i.fa { 
         margin: 5% auto; padding: 0;
-        /*border: 1px solid red;*/
         font-size: 50px;
         display: inline-flex;
     }
 
-    .faText { display: none; display: inline-flex; }
+    .faText { 
+        display: inline-flex; 
+        font-size: 2vh; 
+        letter-spacing: .5px;
+    }
 
     .aboutMeText { text-align: center; }
+
+    .emblem { display:none; }
+
+
 }
