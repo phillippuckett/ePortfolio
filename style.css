@@ -5,7 +5,7 @@ body {
     font-family:'Raleway',sans-serif; 
     text-align: center;
     color: rgba(0,0,0,.75); 
-    letter-spacing: .05vw;
+    letter-spacing: 5%;
     margin: 0 15vw; padding:0; 
 }
 .section {
@@ -79,12 +79,13 @@ img {
 
 
 /*CONTACT ME*/
-.contactInfo {
+#contactInfo {
     /*border: 1px solid green;*/
     text-align: left;
     height: 50vh;
     margin: 0 auto; padding: 0;
     width: 50%;
+    
 }
 
 .contactLink {
@@ -93,12 +94,12 @@ img {
     text-decoration: none;
 }
 
-i.fa {
-    /*border: 1px solid red;*/
-    font-size: 6.25vh;
-    margin: 2.5vh 0; padding: 0;
-    display: inline-flex;
+i.fa { 
+    font-size:6.25vh; 
+    margin:2.5vh 0; padding:0;
+    display: inline-flex; 
 }
+
 .fa-phone-square:hover { color: rgba(0, 200, 0, .75); }
 .fa-envelope-square:hover { color: rgba(200, 0, 0, .75); }
 .fa-linkedin-square:hover { color: rgba(0, 0, 100, .75); }
@@ -129,4 +130,46 @@ embed {
     min-height: 70%; height: 167.5vh;
     min-width: 61.25vw; width: 50%;
 }
-/*RESUME*/
+/*MY RESUME*/
+
+
+
+@media screen and  (max-width: 684px) {
+
+    .title {
+        font-size: 30px;
+        margin: 5% 0; padding:0;
+    }
+
+    .navigation {
+        margin: 5% 0; padding: 0;
+        display: inline-block;
+    }
+
+    .navLink {
+        border: 1px solid rgba(0,0,0,.125);
+        margin: 5% 0; padding: 2.5% 0;
+        color: rgba(0,0,0,.75);
+        font-size: 20px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #contactInfo {
+        margin: 10% auto; padding: 0;
+        /*border: 1px solid green;*/
+        height: auto; width: 100%;
+        /*display: inline-flex;*/
+    }
+
+    i.fa { 
+        margin: 5% auto; padding: 0;
+        /*border: 1px solid red;*/
+        font-size: 50px;
+        display: inline-flex;
+    }
+
+    .faText { display: none; display: inline-flex; }
+
+    .aboutMeText { text-align: center; }
+}
