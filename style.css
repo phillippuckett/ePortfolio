@@ -129,8 +129,8 @@ i.fa {
 }
 embed {
     /*border: 1px solid gold;*/
-    min-height: 70%; height: 167.5vh;
-    min-width: 61.25vw; width: 50%;
+    height: 167.5vh;
+    min-width: 61.25vw;
 }
 /*MY RESUME*/
 
@@ -180,5 +180,5 @@ embed {
 
     .emblem { display:none; }
 
-
+    embed { height: 50vh; width: 100%; }
 }
