@@ -17,7 +17,7 @@ body {
     margin: 5% 0; padding:0;
 }
 .largeText {
-    font-size: 5vh;
+    font-size: 37.5px;
     margin: 2.5% auto; 
 }
 .smallText {
@@ -43,7 +43,7 @@ body {
 
 .navLink:hover { color: rgba(0,0,0,.5); }
 
-img {
+img.photograph {
     margin:0; padding:0;
     height: 50%;
     width: 50%; 
@@ -82,6 +82,7 @@ img {
 .iconContainer { 
     /*border: 1px solid red;*/
     margin: 0 auto; padding: 0;
+    width: 300px;
 }
 
 .contactLink {
@@ -91,11 +92,11 @@ img {
     text-decoration: none;
 }
 
-i.fa { 
+i.fa {
     /*border: 1px solid blue;*/
     margin: 2.5% auto; padding: 0;
     text-align: center;
-    font-size: 50px;
+    font-size: 250%;
     width: 100%;
     display: inline-flex; 
 }
@@ -115,7 +116,7 @@ i.fa {
     display: inline-flex;
 }
 
-.emblem { display: none; }
+img.emblem { display: none; }
 
 embed { height: 70vh; width: 100%; }
 /*STANDARD*/
@@ -146,14 +147,16 @@ embed { height: 70vh; width: 100%; }
         width: 100%;
     }
 
-    img { margin:0; padding:0; height: 75%; width: 75%; }
+    img.photograph { margin:0; padding:0; height: 75%; width: 75%; }
 
     .contactInfo {
         margin: 10% auto; padding: 0;
         font-family:'Raleway',sans-serif;
-        width: 75%;
+        width: 100%;
         display: inline-flex;
     }
+
+    .iconContainer { width: auto; }
 
     i.fa { 
         margin: 0; padding: 0;
@@ -164,7 +167,7 @@ embed { height: 70vh; width: 100%; }
 
     .aboutMeText { text-align: center; }
 
-    .emblem { display:none; }
+    img.emblem { display:none; }
 
     embed { height: 50vh; width: 100%; }
 }
@@ -175,23 +178,26 @@ embed { height: 70vh; width: 100%; }
 /*DESKTOP*/
 @media screen and  (min-width: 876px) {
     .title {
+        /*border: 1px solid black;*/
         font-size: 10vh;
         margin: 5% 0; padding:0;
     }
 
-    img {
+    img.photograph {
         /*border: 1px solid blue;*/
         margin:0 auto; padding:0;
-        width: 50%;
+        width: 300px;
     }
 
     .navigation {
+        /*border: 1px solid gold;*/
         display: inline-flex;
         margin: 5vh 0; padding: 0;
         width: 100%;
     }  
 
     .navLink {
+        /*border: 1px solid red;*/
         border: none;
         margin: 0 auto; padding: 0;
         color: rgba(0,0,0,.75);
@@ -199,11 +205,24 @@ embed { height: 70vh; width: 100%; }
         text-decoration: none;
     }
 
-    .navLinkDiv { display: none; }
+    .inlineContainer { 
+        /*border: 1px solid black;*/
+        display: inline-flex;
+    }
+
+    .aboutMeText {
+        /*border: 1px solid gold;*/
+        margin: 0 auto 0 2.5%;
+        text-align: left;
+        font-size: 125%;
+        line-height: 175%;
+        min-width: 400px;
+        max-width: 100%;
+    }
 
     .contactInfo {
         /*border: 1px solid green;*/
-        margin: 0 auto; padding: 0;
+        margin: 2.5%; padding: 0;
         text-align: left; 
         width: 50%;
     }
@@ -218,9 +237,9 @@ embed { height: 70vh; width: 100%; }
 
     i.fa { 
         /*border: 1px solid red;*/
-        margin: 2.5% auto; padding: 0;
+        margin: 3.75% auto; padding: 0;
         text-align: center;
-        font-size: 50px;
+        font-size: 250%;
         width: 100%;
     }
 
@@ -231,13 +250,13 @@ embed { height: 70vh; width: 100%; }
         letter-spacing: .5px;
     }
 
-    .emblem {
+    img.emblem {
         /*border: 1px solid red;*/
-        font-size: 2.5vh;
-        min-height: 7.5vh; max-height: 15vh;
-        min-width: 7.5vh; max-width: 15vh;
-        margin: 1.25vh auto; padding:0;
+        height: 50px;
+        min-width: 50px;
+        margin: auto; padding:0;
         display: inline-flex;
+        background-size: cover;
     }
     embed {
         /*border: 1px solid gold;*/
